@@ -1,0 +1,5 @@
+---
+# device definitions need to comprise hostname, management
+# ip address, and snmp community string. example only:
+zeus: {mgmt: 10.9.2.14, snmp: public}
+apollo: {mgmt: 10.9.2.15, snmp: public}
