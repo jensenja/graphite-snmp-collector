@@ -32,6 +32,11 @@ At this point some may be asking "why not just use [Net::SNMP](http://search.cpa
 
 Everything else can be installed from CPAN, however one may also want to consider installing `libyaml-dev` (if on a Debian-based system) to speed up YAML operations as well.
 
+----------
+
+## Configuring Net-SNMP ##
+
+Net-SNMP will default to trying to find MIBs in `/home/$user/.snmp/mibs` - if you have any custom MIBs you want to install, you should put them there. Also take note of the `&SNMP::loadModules();` directive in `collector.pl` - this tells SNMP::Multi which MIB modules you want to load - MIB modules being a Camel-Case string of text followed by the phrase `MODULE-IDENTITY` in a MIB file.
 
 ----------
 
