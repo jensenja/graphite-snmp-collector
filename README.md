@@ -1,7 +1,7 @@
 graphite-snmp-collector
 =======================
 
-This is a set of scripts and configuration files that are designed to poll a set of OIDs from various devices and then send that data to a Graphite instance. The scripts themselves are written in Perl and are currently intended to be run via cron. These scripts have only been run on Debian Linux systems and have only been tested with Perl 5.14.2. Set up of said systems is beyond the scope of this document, however I will call out the dependencies/system setup where these have been used with success (benchmarked at around 55k metrics per minute):
+This is a set of scripts and configuration files that are designed to poll a set of OIDs from various devices and then send that data to a [Graphite](http://graphite.wikidot.com/) instance. The scripts themselves are written in Perl and are currently intended to be run via cron. These scripts have only been run on Debian Linux systems and have only been tested with Perl 5.14.2. Set up of said systems is beyond the scope of this document, however I will call out the dependencies/system setup where these have been used with success (benchmarked at around 55k metrics per minute):
 
  1. Linux based operating system (I used Debian 7.5 64-bit)
  2. [Net-SNMP v5.7.2](http://sourceforge.net/projects/net-snmp/files/net-snmp/5.7.2/) (compiled from source with embedded Perl/Python modules - also note I have only used SNMPv2c with this, not SNMPv3)
