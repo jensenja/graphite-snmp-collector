@@ -8,7 +8,7 @@ This is a set of scripts and configuration files that are designed to poll a set
  3. [SNMP::Multi](http://search.cpan.org/~tpg/SNMP-Multi-2.1/Multi.pm)
  4. [YAML](http://search.cpan.org/dist/YAML/lib/YAML.pod)
  5. [Log::Log4perl](http://search.cpan.org/~mschilli/Log-Log4perl-1.44/lib/Log/Log4perl.pm)
- 6. [Parallel::ForkManager](http://search.cpan.org/~dlux/Parallel-ForkManager-0.7.5/ForkManager.pm)
+ 6. [Parallel::ForkManager](http://search.cpan.org/~szabgab/Parallel-ForkManager-1.06/lib/Parallel/ForkManager.pm)
  7. IO::Socket::INET (should be part of standard Perl distribution)
  8. [Python::Serialise::Pickle](http://search.cpan.org/~simonw/Python-Serialise-Pickle-0.01/lib/Python/Serialise/Pickle.pm)
 
