@@ -42,7 +42,7 @@ Net-SNMP will default to trying to find MIBs in `/home/$user/.snmp/mibs` - if yo
 
 ## How The Scripts Work: 100-foot View ##
 
-At a 100-foot view, the only (well, not technically only, see comments below on Graphite metric paths) thing you need to have this start working is a YAML document that is formatted with device hostnames as hash keys, and the values being another hash that contains a management interface IP address, as well as a SNMP community string. Exactly like so:
+At a 100-foot view, the only (well, not technically only, see comments on Graphite metric paths in the Caveats section) thing you need to have this start working is a YAML document that is formatted with device hostnames as hash keys, and the values being another hash that contains a management interface IP address, as well as a SNMP community string. Exactly like so:
 
     ---
     zeus: {mgmt: 10.9.2.14, snmp: public}
